@@ -41,6 +41,7 @@ function App() {
         <div>
           <Switch>
             <Route path="/" component={HomePage} exact />
+//     I didn't know there were different route types. This is a good way to do the login and register.
             <PrivateRoute
               path="/shipment-list"
               authed={loggedIn.loggedIn}
