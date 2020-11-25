@@ -47,6 +47,7 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Item as="li" className="p-1">
+//     I think having the Home is a bit unnescary because the logo takes you back to the home page and most everyone knows that.
               <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item as="li" className="p-1">
