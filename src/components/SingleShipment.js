@@ -1,4 +1,5 @@
 /*eslint-disable no-unused-vars*/
+// This isn't so much of a comment on this specific component but I like how you guys broke up the project into a bunch of different components.
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
